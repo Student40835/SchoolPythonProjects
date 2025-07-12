@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="394dc77a-9ced-480c-8828-0094d8187f4b" name="Changes" comment="finished">
-      <change beforePath="$PROJECT_DIR$/min_max.py" beforeDir="false" afterPath="$PROJECT_DIR$/min_max.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fall_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hailstone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Student40835"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Student40835&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Student40835/SchoolPythonProjects.git",
-    "accountId": "83a45668-432d-4a13-bbfa-3ddbbcca82a9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Student40835/SchoolPythonProjects.git&quot;,
+    &quot;accountId&quot;: &quot;83a45668-432d-4a13-bbfa-3ddbbcca82a9&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -49,6 +52,8 @@
     "Python.average.executor": "Run",
     "Python.change.executor": "Run",
     "Python.factors.executor": "Run",
+    "Python.fall_distance.executor": "Run",
+    "Python.fib.executor": "Run",
     "Python.min_max.executor": "Run",
     "Python.num_guess.executor": "Run",
     "Python.temp_convert.executor": "Run",
@@ -80,7 +85,8 @@
       <updated>1751314778811</updated>
       <workItem from="1751314779844" duration="117000" />
       <workItem from="1751316734106" duration="1555000" />
-      <workItem from="1751924761032" duration="3324000" />
+      <workItem from="1751924761032" duration="3736000" />
+      <workItem from="1752277368155" duration="1681000" />
     </task>
     <task id="LOCAL-00001" summary="finished">
       <option name="closed" value="true" />
@@ -114,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751927682187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished">
+      <option name="closed" value="true" />
+      <created>1751928247441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751928247441</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,11 +161,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/School_Python_Projects$change.coverage" NAME="change Coverage Results" MODIFIED="1751318216734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/School_Python_Projects$num_guess.coverage" NAME="num_guess Coverage Results" MODIFIED="1751927332643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$num_guess.coverage" NAME="num_guess Coverage Results" MODIFIED="1751928376926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$temp_convert.coverage" NAME="temp_convert Coverage Results" MODIFIED="1751317899680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$factors.coverage" NAME="factors Coverage Results" MODIFIED="1751926244299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$fall_distance.coverage" NAME="fall_distance Coverage Results" MODIFIED="1752278352712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$min_max.coverage" NAME="min_max Coverage Results" MODIFIED="1751925917842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$Project_2_part_3.coverage" NAME="Project 2 part 3 Coverage Results" MODIFIED="1751317213587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$fib.coverage" NAME="fib Coverage Results" MODIFIED="1752279039153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$average.coverage" NAME="average Coverage Results" MODIFIED="1751317596390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
