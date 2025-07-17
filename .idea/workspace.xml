@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="394dc77a-9ced-480c-8828-0094d8187f4b" name="Changes" comment="finished">
-      <change afterPath="$PROJECT_DIR$/fall_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hailstone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add_surname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_median.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/without_duplicates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +49,18 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Project 2 part 3.executor": "Run",
+    "Python.add_surname.executor": "Run",
     "Python.average.executor": "Run",
     "Python.change.executor": "Run",
     "Python.factors.executor": "Run",
     "Python.fall_distance.executor": "Run",
     "Python.fib.executor": "Run",
+    "Python.find_median.executor": "Run",
+    "Python.hailstone.executor": "Run",
     "Python.min_max.executor": "Run",
     "Python.num_guess.executor": "Run",
     "Python.temp_convert.executor": "Run",
+    "Python.without_duplicates.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -86,7 +90,8 @@
       <workItem from="1751314779844" duration="117000" />
       <workItem from="1751316734106" duration="1555000" />
       <workItem from="1751924761032" duration="3736000" />
-      <workItem from="1752277368155" duration="1681000" />
+      <workItem from="1752277368155" duration="2835000" />
+      <workItem from="1752716465641" duration="6306000" />
     </task>
     <task id="LOCAL-00001" summary="finished">
       <option name="closed" value="true" />
@@ -128,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751928247441</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished">
+      <option name="closed" value="true" />
+      <created>1752279467443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752279467443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,14 +173,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/School_Python_Projects$change.coverage" NAME="change Coverage Results" MODIFIED="1751318216734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$num_guess.coverage" NAME="num_guess Coverage Results" MODIFIED="1751928376926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$hailstone.coverage" NAME="hailstone Coverage Results" MODIFIED="1752279402624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$Project_2_part_3.coverage" NAME="Project 2 part 3 Coverage Results" MODIFIED="1751317213587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$fib.coverage" NAME="fib Coverage Results" MODIFIED="1752279039153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$without_duplicates.coverage" NAME="without_duplicates Coverage Results" MODIFIED="1752723639304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$average.coverage" NAME="average Coverage Results" MODIFIED="1751317596390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$find_median.coverage" NAME="find_median Coverage Results" MODIFIED="1752719465755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$change.coverage" NAME="change Coverage Results" MODIFIED="1751318216734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$temp_convert.coverage" NAME="temp_convert Coverage Results" MODIFIED="1751317899680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$factors.coverage" NAME="factors Coverage Results" MODIFIED="1751926244299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$fall_distance.coverage" NAME="fall_distance Coverage Results" MODIFIED="1752278352712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/School_Python_Projects$add_surname.coverage" NAME="add_surname Coverage Results" MODIFIED="1752723472858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/School_Python_Projects$min_max.coverage" NAME="min_max Coverage Results" MODIFIED="1751925917842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/School_Python_Projects$Project_2_part_3.coverage" NAME="Project 2 part 3 Coverage Results" MODIFIED="1751317213587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/School_Python_Projects$fib.coverage" NAME="fib Coverage Results" MODIFIED="1752279039153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/School_Python_Projects$average.coverage" NAME="average Coverage Results" MODIFIED="1751317596390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
