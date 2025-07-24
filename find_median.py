@@ -33,5 +33,3 @@ def find_median(numbers):
     else:
         median = (numbers[int(len(numbers) / 2)] + numbers[int(len(numbers) / 2)-1]) / 2
     return median
-
-
