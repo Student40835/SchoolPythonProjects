@@ -12,7 +12,7 @@ def word_length_std_dev(sentence):
         standard_deviation = 0
         for word in word_list:
             standard_deviation += (len(word)-average_length_of_a_word)**2
-        standard_deviation = standard_deviation/len(word_list)
+        standard_deviation = standard_deviation/(len(word_list)-1)
         standard_deviation = standard_deviation ** 0.5
     else:
         standard_deviation = 0
