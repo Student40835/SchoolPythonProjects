@@ -21,4 +21,3 @@ def list_of_primes_up_to(limit=100):
             new_list.append(new_list_position)
         new_list_position += 1
     return new_list
-print(list_of_primes_up_to())
