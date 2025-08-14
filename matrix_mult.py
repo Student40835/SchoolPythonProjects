@@ -37,3 +37,4 @@ def matrix_mult(matrix_1,matrix_2):
             starter_2 += 1
         starter_0 += 1
         starter_2 = 0
+    return matrix_3
